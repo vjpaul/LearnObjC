@@ -16,6 +16,9 @@
 		3B0F7E32175DCFA900054E1F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0F7E31175DCFA900054E1F /* Default.png */; };
 		3B0F7E34175DCFA900054E1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0F7E33175DCFA900054E1F /* Default@2x.png */; };
 		3B0F7E36175DCFA900054E1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0F7E35175DCFA900054E1F /* Default-568h@2x.png */; };
+		3B0F7E3F175DD6C900054E1F /* LOCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F7E3D175DD6C900054E1F /* LOCMainViewController.m */; };
+		3B0F7E40175DD6C900054E1F /* LOCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B0F7E3E175DD6C900054E1F /* LOCMainViewController.xib */; };
+		3B0F7E43175DDF1100054E1F /* LOCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0F7E42175DDF1100054E1F /* LOCNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		3B0F7E31175DCFA900054E1F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3B0F7E33175DCFA900054E1F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3B0F7E35175DCFA900054E1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3B0F7E3C175DD6C900054E1F /* LOCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCMainViewController.h; sourceTree = "<group>"; };
+		3B0F7E3D175DD6C900054E1F /* LOCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCMainViewController.m; sourceTree = "<group>"; };
+		3B0F7E3E175DD6C900054E1F /* LOCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LOCMainViewController.xib; sourceTree = "<group>"; };
+		3B0F7E41175DDF1100054E1F /* LOCNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCNavigationViewController.h; sourceTree = "<group>"; };
+		3B0F7E42175DDF1100054E1F /* LOCNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,11 @@
 				3B0F7E2E175DCFA900054E1F /* LOCAppDelegate.h */,
 				3B0F7E2F175DCFA900054E1F /* LOCAppDelegate.m */,
 				3B0F7E26175DCFA900054E1F /* Supporting Files */,
+				3B0F7E3C175DD6C900054E1F /* LOCMainViewController.h */,
+				3B0F7E3D175DD6C900054E1F /* LOCMainViewController.m */,
+				3B0F7E3E175DD6C900054E1F /* LOCMainViewController.xib */,
+				3B0F7E41175DDF1100054E1F /* LOCNavigationViewController.h */,
+				3B0F7E42175DDF1100054E1F /* LOCNavigationViewController.m */,
 			);
 			path = LearnObjC;
 			sourceTree = "<group>";
@@ -155,6 +168,7 @@
 				3B0F7E32175DCFA900054E1F /* Default.png in Resources */,
 				3B0F7E34175DCFA900054E1F /* Default@2x.png in Resources */,
 				3B0F7E36175DCFA900054E1F /* Default-568h@2x.png in Resources */,
+				3B0F7E40175DD6C900054E1F /* LOCMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +181,8 @@
 			files = (
 				3B0F7E2C175DCFA900054E1F /* main.m in Sources */,
 				3B0F7E30175DCFA900054E1F /* LOCAppDelegate.m in Sources */,
+				3B0F7E3F175DD6C900054E1F /* LOCMainViewController.m in Sources */,
+				3B0F7E43175DDF1100054E1F /* LOCNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
